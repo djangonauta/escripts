@@ -1,0 +1,3 @@
+import escripts
+
+escripts.main()

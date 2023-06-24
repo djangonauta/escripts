@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "escripts"
-version = "0.0.1"
+version = "0.0.2"
 description = "Argparse, Poetry e algums scripts na linha de comando para testes."
 authors = ["djangonauta <igbrch@gmail.com>"]
 readme = "README.md"

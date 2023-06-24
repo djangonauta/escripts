@@ -35,3 +35,7 @@ class ClienteBanco:
     def __exit__(self, exc_type, exc_value, exc_tb):
         if self.conn:
             self.conn.close()
+
+        if exc_tb is not None:
+            print('Um erro ocorreu durante o processamento.', exc_type, exc_value, exc_tb)
+            return True

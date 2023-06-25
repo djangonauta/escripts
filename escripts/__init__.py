@@ -6,6 +6,8 @@ from .mail import ClienteEmail
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument('-V', '--version', action='version', version='0.0.3')
+
     subparsers = parser.add_subparsers(dest='subcomando')
 
     banco = subparsers.add_parser('banco')

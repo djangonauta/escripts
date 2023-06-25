@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "escripts"
-version = "0.0.2"
+version = "0.0.3"
 description = "Argparse, Poetry e algums scripts na linha de comando para testes."
 authors = ["djangonauta <igbrch@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3"
 psycopg2 = "^2.9.6"
 
 [tool.poetry.group.dev.dependencies]
